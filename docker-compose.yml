@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  x-bot:
+    build: .
+    container_name: x-bot
+    env_file:
+      - /home/ubuntu/x_api.env
